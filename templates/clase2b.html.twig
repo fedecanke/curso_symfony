@@ -1,0 +1,12 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Clase 2 B{% endblock %}
+{% block body %}
+	{% if variable == 10 %}
+		<div>
+			<h2>Esto es el Div de Variable = 10</h2>
+		</div>
+	{% else %}
+		<p>No se imprime Div (Variable != 10)</p>
+	{% endif %}
+{% endblock %}
